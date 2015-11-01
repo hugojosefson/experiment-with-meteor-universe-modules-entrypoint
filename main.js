@@ -21,5 +21,6 @@ if (Meteor.isClient) {
 if (Meteor.isServer) {
   Meteor.startup(function () {
     console.log('this is in main.js');
+    asd();
   });
 }
